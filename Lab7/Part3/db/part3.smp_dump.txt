@@ -1,0 +1,10 @@
+
+State Machine - |part3|posControl:pc|cs
+Name cs.S_clear_screen cs.S_update_pos cs.S_change_dir cs.S_check_pos cs.S_draw cs.S_reset_counters cs.S_initial_set 
+cs.S_initial_set 0 0 0 0 0 0 0 
+cs.S_reset_counters 0 0 0 0 0 1 1 
+cs.S_draw 0 0 0 0 1 0 1 
+cs.S_check_pos 0 0 0 1 0 0 1 
+cs.S_change_dir 0 0 1 0 0 0 1 
+cs.S_update_pos 0 1 0 0 0 0 1 
+cs.S_clear_screen 1 0 0 0 0 0 1 

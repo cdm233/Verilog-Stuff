@@ -1,0 +1,8 @@
+
+State Machine - |part2|control:c0|cs
+Name cs.S_negedge_wait cs.S_load_yc cs.S_load_x cs.S_load_x_wait cs.S_plot 
+cs.S_load_x_wait 0 0 0 0 0 
+cs.S_load_x 0 0 1 1 0 
+cs.S_load_yc 0 1 0 1 0 
+cs.S_negedge_wait 1 0 0 1 0 
+cs.S_plot 0 0 0 1 1 

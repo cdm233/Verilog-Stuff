@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DotDashOut",
+					"strict" : false
+				},
+				{
+					"name" : "Start",
+					"strict" : false
+				},
+				{
+					"name" : "Resetn",
+					"strict" : false
+				},
+				{
+					"name" : "ClockIn",
+					"strict" : false
+				},
+				{
+					"name" : "Letter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Letter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Letter[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

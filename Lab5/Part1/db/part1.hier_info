@@ -1,0 +1,70 @@
+|part1
+Clock => Clock.IN8
+Enable => Enable.IN1
+Clear_b => Clear_b.IN8
+CounterValue[0] <= Tflip:t1.port3
+CounterValue[1] <= Tflip:t2.port3
+CounterValue[2] <= Tflip:t3.port3
+CounterValue[3] <= Tflip:t4.port3
+CounterValue[4] <= Tflip:t5.port3
+CounterValue[5] <= Tflip:t6.port3
+CounterValue[6] <= Tflip:t7.port3
+CounterValue[7] <= Tflip:t8.port3
+
+
+|part1|Tflip:t1
+T => Q.OUTPUTSELECT
+Clk => Q~reg0.CLK
+reset_b => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part1|Tflip:t2
+T => Q.OUTPUTSELECT
+Clk => Q~reg0.CLK
+reset_b => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part1|Tflip:t3
+T => Q.OUTPUTSELECT
+Clk => Q~reg0.CLK
+reset_b => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part1|Tflip:t4
+T => Q.OUTPUTSELECT
+Clk => Q~reg0.CLK
+reset_b => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part1|Tflip:t5
+T => Q.OUTPUTSELECT
+Clk => Q~reg0.CLK
+reset_b => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part1|Tflip:t6
+T => Q.OUTPUTSELECT
+Clk => Q~reg0.CLK
+reset_b => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part1|Tflip:t7
+T => Q.OUTPUTSELECT
+Clk => Q~reg0.CLK
+reset_b => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part1|Tflip:t8
+T => Q.OUTPUTSELECT
+Clk => Q~reg0.CLK
+reset_b => Q.OUTPUTSELECT
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

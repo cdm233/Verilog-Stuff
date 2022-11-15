@@ -1,0 +1,93 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cdeme/Desktop/UofT/Second Year/Fall/ECE241/Lab5/Part2
+vDisplayCounter
+Z1 !s110 1638197642
+!i10b 1
+!s100 WTjJXJkaHj^0ZKR2Ve^?P2
+IAR]S8emW]Kld0ML7=_7Rg3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/cdeme/Desktop/UofT/Second Year/Fall/ECE241/Lab8/Part1
+Z4 w1638197508
+Z5 8part2.v
+Z6 Fpart2.v
+L0 67
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1638197642.000000
+Z9 !s107 part2.v|
+Z10 !s90 -reportprogress|300|part2.v|
+!i113 1
+Z11 tCvgOpt 0
+n@display@counter
+vPart2
+!s110 1636743536
+!i10b 1
+!s100 EEA4F8`4E70M>iKjYYG]23
+IhBAA<][8WUf?WUQd96<441
+R2
+R0
+w1636743493
+8Part2.v
+FPart2.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1636743536.000000
+!s107 Part2.v|
+!s90 -reportprogress|300|Part2.v|
+!i113 1
+R11
+n@part2
+vpart2
+R1
+!i10b 1
+!s100 f@330aIMFgYj4AcUCF6gn2
+IkH0a5W^g0mXln3dH4YjV41
+R2
+R3
+R4
+R5
+R6
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vRateDivider
+R1
+!i10b 1
+!s100 2>dD@H<eB?a6bZ:e:PH:l1
+IW1K3bP^aCCiEjfSJ1dJSZ1
+R2
+R3
+R4
+R5
+R6
+L0 17
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+n@rate@divider

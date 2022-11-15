@@ -1,0 +1,218 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cdeme/Desktop/UofT/Second Year/Fall/ECE241/Lab7/Part3
+vdelayCounter
+Z1 !s110 1638047124
+!i10b 1
+!s100 h>iJ]d_L[fXL7<8E5_:TG2
+I1Q@lI9z>k5UM`9e[lijzW0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1638046985
+Z4 8part3.v
+Z5 Fpart3.v
+L0 166
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1638047124.000000
+Z8 !s107 part3.v|
+Z9 !s90 -reportprogress|300|part3.v|
+!i113 1
+Z10 tCvgOpt 0
+ndelay@counter
+vdraw
+R1
+!i10b 1
+!s100 F1jo=<K4dUloZg:ik^>7g1
+I1OIn;>eZd@[V_ZC_K9ziM0
+R2
+R0
+R3
+R4
+R5
+L0 229
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vdrawControl
+!s110 1638032147
+!i10b 1
+!s100 J;7NAS:a9`73LUUe?`=f72
+I54kfYH2==oZzm68TA]C080
+R2
+R0
+w1638032144
+R4
+R5
+Z11 L0 117
+R6
+r1
+!s85 0
+31
+!s108 1638032147.000000
+R8
+R9
+!i113 1
+R10
+ndraw@control
+vdrawDataPath
+!s110 1638039058
+!i10b 1
+!s100 =<_JjJ4cUcBebL_fka9eJ2
+I7EYz7][En4R4H@_LU@1W`2
+R2
+R0
+w1638039056
+R4
+R5
+R11
+R6
+r1
+!s85 0
+31
+!s108 1638039058.000000
+R8
+R9
+!i113 1
+R10
+ndraw@data@path
+vframeCounter
+R1
+!i10b 1
+!s100 KjR@?KLC=zTGkWigIR^P42
+IIM`>nN5d7U4YaJ?L0z1;62
+R2
+R0
+R3
+R4
+R5
+L0 182
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nframe@counter
+vpart3
+R1
+!i10b 1
+!s100 92S=I23e^XO1YojB2c]zd2
+ISm<lodM?_3@RMJ3dY4Wk61
+R2
+R0
+R3
+R4
+R5
+L0 18
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vposControl
+R1
+!i10b 1
+!s100 lfDJH;S`Td7>8WLZ6@nz91
+I`3zmDYdcfF4QTOgaSaOGN0
+R2
+R0
+R3
+R4
+R5
+L0 55
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+npos@control
+vposDataPath
+R1
+!i10b 1
+!s100 Y9ko?9_JXf>?EU9=U@ZXz3
+I``P@6efHFKDD[S7c[gneL1
+R2
+R0
+R3
+R4
+R5
+L0 149
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+npos@data@path
+vxCounter
+R1
+!i10b 1
+!s100 bLDT@hMnRA2EO;2ngk<TM1
+IU2WWNWbW]]NBM=Sh`1hA]0
+R2
+R0
+R3
+R4
+R5
+L0 195
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+nx@counter
+vyCounter
+R1
+!i10b 1
+!s100 MNSO>_IK8=IzOULHcIoB82
+I[nDUS]5Ya^mXYjF;==oF[1
+R2
+R0
+R3
+R4
+R5
+L0 210
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+ny@counter

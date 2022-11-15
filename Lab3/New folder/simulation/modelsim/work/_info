@@ -1,0 +1,194 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cdeme/Desktop/UofT/Second Year/Fall/ECE241/Lab3/New folder/simulation/modelsim
+vFA
+Z1 !s110 1633412608
+!i10b 1
+!s100 Y0A@22j:1goH2hm]n4z=b2
+IBXAPG1Affz`9RG1Hgl@D_2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1633412584
+Z4 8main.vo
+Z5 Fmain.vo
+L0 1670
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1633412608.000000
+Z8 !s107 main.vo|
+Z9 !s90 main.vo|
+!i113 1
+Z10 tCvgOpt 0
+n@f@a
+vFA_1
+R1
+!i10b 1
+!s100 SKA6MEBIfOFen_ShROQ9R3
+I3af2@DY0@S^4=N0>b0g`a2
+R2
+R0
+R3
+R4
+R5
+L0 1719
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@a_1
+vFA_2
+!s110 1633411249
+!i10b 1
+!s100 `h@11ZU?QXNo4@UkSV`A[2
+I>B2lGn5T8?=[:_`b1=]NT0
+R2
+R0
+w1633411243
+R4
+R5
+L0 1563
+R6
+r1
+!s85 0
+31
+!s108 1633411249.000000
+R8
+R9
+!i113 1
+R10
+n@f@a_2
+vFA_3
+R1
+!i10b 1
+!s100 <bC?kJ68FbS<R=@SMB3=C3
+IS_K7]JX@]?nfDDUFE4D<g3
+R2
+R0
+R3
+R4
+R5
+L0 1797
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+n@f@a_3
+vhex_decoder
+R1
+!i10b 1
+!s100 `8CbzTNeT7RJa`nlf4R:`1
+ITDSE2j[GGmm783YFg`RM11
+R2
+R0
+R3
+R4
+R5
+L0 1371
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vmain
+R1
+!i10b 1
+!s100 ZOzKHhXNI1VfGceCZ`2ie3
+IHNj>5`mAl@i7<aWEUn;8g0
+R2
+R0
+R3
+R4
+R5
+Z11 L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vpart2
+!s110 1633225745
+!i10b 1
+!s100 lnC27n^U144KHWR9Th^821
+I>V;`_b=LKB;MiC0gfn3nd3
+R2
+R0
+w1633225709
+R4
+R5
+R11
+R6
+r1
+!s85 0
+31
+!s108 1633225745.000000
+R8
+R9
+!i113 1
+R10
+vpart2_1
+R1
+!i10b 1
+!s100 hY38@Q2WUz>E;9AC0SGXE2
+Ilgl4F=>CHo@0QW:JC:3jo1
+R2
+R0
+R3
+R4
+R5
+L0 1593
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vtb
+R1
+!i10b 1
+!s100 OKhdkNK:n^8;ao8^7;^Ko0
+ISLkcO2AC6@45cGc:YcZDK1
+R2
+R0
+w1600444960
+8tb.v
+Ftb.v
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+!s107 tb.v|
+!s90 tb.v|
+!i113 1
+R10

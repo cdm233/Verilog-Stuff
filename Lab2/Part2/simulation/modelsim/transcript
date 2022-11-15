@@ -1,0 +1,22 @@
+# vsim -pli "fakefpga.vpi" "+nowarn3116" -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver tb -voptargs="+acc" -do "run -all" 
+# Start time: 23:41:53 on Sep 26,2021
+# Loading work.tb
+# Loading work.main
+# Loading work.mux2to1
+# Loading work.v7432
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading ./fakefpga.vpi
+# run -all
+# Time scaling: 0.0001 sim seconds per real-time second
+# 
+# 
+# Connected to server!
+# Unrecognized command: [Server]. Ignoring...
+# ** Note: $finish    : tb.v(19)
+#    Time: 1478020 ns  Iteration: 1  Instance: /tb
+# 
+# Quitting...
+# End time: 23:42:08 on Sep 26,2021, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0

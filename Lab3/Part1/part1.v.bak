@@ -1,0 +1,9 @@
+module part1(input [2:0]MuxSelect, [7:0]Input, output reg Out);
+begin
+case (MuxSelect[2:0]) // start case statement
+3?b000: Out = Input[0]; // case 0
+3?b001: Out = Input[1]; // case 1
+3?b010: Out = Input[2]; // case 2
+endcase
+end
+endmodule 

@@ -1,0 +1,158 @@
+|part2
+Clock => Clock.IN1
+Reset_b[0] => Reset_b[0].IN1
+Reset_b[1] => Reset_b[1].IN1
+Reset_b[2] => Reset_b[2].IN1
+Data[0] => Data[0].IN1
+Data[1] => Data[1].IN1
+Data[2] => Data[2].IN1
+Data[3] => Data[3].IN1
+Function[0] => Mux0.IN9
+Function[0] => Mux1.IN9
+Function[0] => Mux2.IN9
+Function[0] => Mux3.IN7
+Function[0] => Mux4.IN6
+Function[0] => Mux5.IN6
+Function[0] => Mux6.IN6
+Function[0] => Mux7.IN6
+Function[1] => Mux0.IN8
+Function[1] => Mux1.IN8
+Function[1] => Mux2.IN8
+Function[1] => Mux3.IN6
+Function[1] => Mux4.IN5
+Function[1] => Mux5.IN5
+Function[1] => Mux6.IN5
+Function[1] => Mux7.IN5
+Function[2] => Mux0.IN7
+Function[2] => Mux1.IN7
+Function[2] => Mux2.IN7
+Function[2] => Mux3.IN5
+Function[2] => Mux4.IN4
+Function[2] => Mux5.IN4
+Function[2] => Mux6.IN4
+Function[2] => Mux7.IN4
+ALUout[0] <= ALUout[0].DB_MAX_OUTPUT_PORT_TYPE
+ALUout[1] <= ALUout[1].DB_MAX_OUTPUT_PORT_TYPE
+ALUout[2] <= ALUout[2].DB_MAX_OUTPUT_PORT_TYPE
+ALUout[3] <= ALUout[3].DB_MAX_OUTPUT_PORT_TYPE
+ALUout[4] <= ALUout[4].DB_MAX_OUTPUT_PORT_TYPE
+ALUout[5] <= ALUout[5].DB_MAX_OUTPUT_PORT_TYPE
+ALUout[6] <= ALUout[6].DB_MAX_OUTPUT_PORT_TYPE
+ALUout[7] <= ALUout[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part2|reg8_bits:reg1
+d[0] => q.DATAA
+d[1] => q.DATAA
+d[2] => q.DATAA
+d[3] => q.DATAA
+d[4] => q.DATAA
+d[5] => q.DATAA
+d[6] => q.DATAA
+d[7] => q.DATAA
+clk[0] => q[0]~reg0.CLK
+clk[0] => q[1]~reg0.CLK
+clk[0] => q[2]~reg0.CLK
+clk[0] => q[3]~reg0.CLK
+clk[0] => q[4]~reg0.CLK
+clk[0] => q[5]~reg0.CLK
+clk[0] => q[6]~reg0.CLK
+clk[0] => q[7]~reg0.CLK
+clk[1] => ~NO_FANOUT~
+clk[2] => ~NO_FANOUT~
+clk[3] => ~NO_FANOUT~
+clk[4] => ~NO_FANOUT~
+clk[5] => ~NO_FANOUT~
+clk[6] => ~NO_FANOUT~
+clk[7] => ~NO_FANOUT~
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset[0] => Equal0.IN7
+reset[1] => Equal0.IN6
+reset[2] => Equal0.IN5
+reset[3] => Equal0.IN4
+reset[4] => Equal0.IN3
+reset[5] => Equal0.IN2
+reset[6] => Equal0.IN1
+reset[7] => Equal0.IN0
+
+
+|part2|RCA:ripple1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+s[0] <= FA:adder1.port3
+s[1] <= FA:adder2.port3
+s[2] <= FA:adder3.port3
+s[3] <= FA:adder4.port3
+c_out <= FA:adder4.port4
+
+
+|part2|RCA:ripple1|FA:adder1
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part2|RCA:ripple1|FA:adder2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part2|RCA:ripple1|FA:adder3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part2|RCA:ripple1|FA:adder4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

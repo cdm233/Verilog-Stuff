@@ -1,0 +1,117 @@
+|part2
+ClockIn => ClockIn.IN2
+Reset => Reset.IN2
+Speed[0] => Speed[0].IN2
+Speed[1] => Speed[1].IN2
+CounterValue[0] << DisplayCounter:deci2.port4
+CounterValue[1] << DisplayCounter:deci2.port4
+CounterValue[2] << DisplayCounter:deci2.port4
+CounterValue[3] << DisplayCounter:deci2.port4
+
+
+|part2|mux4to1:max
+select[0] => Decoder0.IN1
+select[1] => Decoder0.IN0
+select[1] => x[9].DATAIN
+select[1] => x[2].DATAIN
+x[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+x[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+x[2] <= select[1].DB_MAX_OUTPUT_PORT_TYPE
+x[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+x[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+x[5] <= x.DB_MAX_OUTPUT_PORT_TYPE
+x[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+x[7] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+x[8] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+x[9] <= select[1].DB_MAX_OUTPUT_PORT_TYPE
+x[10] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part2|RateDivider:endc1
+select[0] => select[0].IN1
+select[1] => select[1].IN1
+select[2] => select[2].IN1
+select[3] => select[3].IN1
+select[4] => select[4].IN1
+select[5] => select[5].IN1
+select[6] => select[6].IN1
+select[7] => select[7].IN1
+select[8] => select[8].IN1
+select[9] => select[9].IN1
+select[10] => select[10].IN1
+resetn => resetn.IN1
+clk => clk.IN1
+en <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+L => L.IN1
+
+
+|part2|RateDivider:endc1|downcounter:qnum
+signal[0] => q.DATAB
+signal[1] => q.DATAB
+signal[2] => q.DATAB
+signal[3] => q.DATAB
+signal[4] => q.DATAB
+signal[5] => q.DATAB
+signal[6] => q.DATAB
+signal[7] => q.DATAB
+signal[8] => q.DATAB
+signal[9] => q.DATAB
+signal[10] => q.DATAB
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+resetn => q.OUTPUTSELECT
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+clk => q[8]~reg0.CLK
+clk => q[9]~reg0.CLK
+clk => q[10]~reg0.CLK
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[8] <= q[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[9] <= q[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[10] <= q[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+L => always0.IN1
+
+
+|part2|DisplayCounter:deci2
+speed[0] => ~NO_FANOUT~
+speed[1] => ~NO_FANOUT~
+resetn => display.OUTPUTSELECT
+resetn => display.OUTPUTSELECT
+resetn => display.OUTPUTSELECT
+resetn => display.OUTPUTSELECT
+clk => display[0]~reg0.CLK
+clk => display[1]~reg0.CLK
+clk => display[2]~reg0.CLK
+clk => display[3]~reg0.CLK
+EnableDC => always0.IN1
+EnableDC => display.OUTPUTSELECT
+EnableDC => display.OUTPUTSELECT
+EnableDC => display.OUTPUTSELECT
+EnableDC => display.OUTPUTSELECT
+display[0] <= display[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+display[1] <= display[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+display[2] <= display[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+display[3] <= display[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

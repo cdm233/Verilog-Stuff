@@ -1,0 +1,110 @@
+|part3
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Function[0] => Decoder0.IN2
+Function[0] => Mux0.IN9
+Function[0] => Mux1.IN9
+Function[0] => Mux2.IN9
+Function[0] => Mux3.IN9
+Function[0] => Mux4.IN9
+Function[1] => Decoder0.IN1
+Function[1] => Mux0.IN8
+Function[1] => Mux1.IN8
+Function[1] => Mux2.IN8
+Function[1] => Mux3.IN8
+Function[1] => Mux4.IN8
+Function[2] => Decoder0.IN0
+Function[2] => Mux0.IN7
+Function[2] => Mux1.IN7
+Function[2] => Mux2.IN7
+Function[2] => Mux3.IN7
+Function[2] => Mux4.IN7
+ALUout[0] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+ALUout[1] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+ALUout[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+ALUout[3] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+ALUout[4] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+ALUout[5] <= ALUout.DB_MAX_OUTPUT_PORT_TYPE
+ALUout[6] <= ALUout.DB_MAX_OUTPUT_PORT_TYPE
+ALUout[7] <= ALUout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|RCA:RCA1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+s[0] <= FA:adder1.port3
+s[1] <= FA:adder2.port3
+s[2] <= FA:adder3.port3
+s[3] <= FA:adder4.port3
+c_out <= FA:adder4.port4
+
+
+|part3|RCA:RCA1|FA:adder1
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|RCA:RCA1|FA:adder2
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|RCA:RCA1|FA:adder3
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|part3|RCA:RCA1|FA:adder4
+a => s.IN0
+a => c_out.IN0
+a => c_out.IN0
+b => s.IN1
+b => c_out.IN1
+b => c_out.IN0
+c_in => s.IN1
+c_in => c_out.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

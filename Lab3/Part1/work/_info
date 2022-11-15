@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cdeme/Desktop/UofT/Second Year/Fall/ECE241/Lab3/Part1
+vmy_mux
+!s110 1633058662
+!i10b 1
+!s100 PUXhnzD0?[>FCz647P;AV1
+I:GG]5fRgSPf0AV8jn>afS3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1633058609
+Z2 8part1.v
+Z3 Fpart1.v
+L0 18
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1633058662.000000
+!s107 part1.v|
+Z5 !s90 -reportprogress|300|part1.v|
+!i113 1
+Z6 tCvgOpt 0
+vpart1
+!s110 1633361577
+!i10b 1
+!s100 VHk:@OMKRdUhfkY=45^1V3
+INCHeBS]F[G4@MmdF5n@Ad2
+R1
+R0
+w1633059588
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1633361577.000000
+!s107 part1.v|
+R5
+!i113 1
+R6

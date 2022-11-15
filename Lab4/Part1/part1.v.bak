@@ -1,0 +1,4 @@
+module shift3_bit(w, clk, q);
+
+
+endmodule 

@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "oX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "oX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "oX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "oX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "oX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "oY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "oY[1]",
+					"strict" : false
+				},
+				{
+					"name" : "oY[2]",
+					"strict" : false
+				},
+				{
+					"name" : "oY[3]",
+					"strict" : false
+				},
+				{
+					"name" : "oColour[0]",
+					"strict" : false
+				},
+				{
+					"name" : "oColour[1]",
+					"strict" : false
+				},
+				{
+					"name" : "oColour[2]",
+					"strict" : false
+				},
+				{
+					"name" : "oPlot",
+					"strict" : false
+				},
+				{
+					"name" : "iResetn",
+					"strict" : false
+				},
+				{
+					"name" : "iColour[0]",
+					"strict" : false
+				},
+				{
+					"name" : "iColour[1]",
+					"strict" : false
+				},
+				{
+					"name" : "iColour[2]",
+					"strict" : false
+				},
+				{
+					"name" : "iClock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

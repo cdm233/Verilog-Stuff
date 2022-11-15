@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/cdeme/desktop/uofT/second year/fall/ece241/lab 2/material
+vmux
+Z0 !s110 1632709083
+!i10b 1
+!s100 L91IkFmi6JnHY=c8HjGoo1
+Io4@Xg]8EGZ9^mdPgcb?A`1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/users/cdeme/desktop/uofT/second Year/fall/ece241/lab2/material
+Z3 w1632697978
+Z4 8mux.v
+Z5 Fmux.v
+L0 10
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1632709083.000000
+Z8 !s107 mux.v|
+Z9 !s90 -reportprogress|300|mux.v|
+!i113 1
+Z10 tCvgOpt 0
+vmux2to1
+R0
+!i10b 1
+!s100 k0LgCE9aHWOjOnQoSi0I:2
+Im:QBI;0CXhZmUQzQCcVPG3
+R1
+R2
+R3
+R4
+R5
+L0 22
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

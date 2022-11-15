@@ -1,0 +1,5 @@
+module part2(input a, b, c_in, output s, c_out);
+
+
+
+endmodule 

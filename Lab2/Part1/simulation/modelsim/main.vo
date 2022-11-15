@@ -1,0 +1,163 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition"
+
+// DATE "09/26/2021 22:44:18"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module mux2to1 (
+	x,
+	y,
+	s,
+	m);
+input 	x;
+input 	y;
+input 	s;
+output 	m;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \v7432c1|pin3~0_combout ;
+wire \y~input_o ;
+wire \s~input_o ;
+wire \x~input_o ;
+
+
+v7432 v7432c1(
+	.pin3(\v7432c1|pin3~0_combout ),
+	.y(\y~input_o ),
+	.s(\s~input_o ),
+	.x(\x~input_o ),
+	.devpor(devpor),
+	.devclrn(devclrn),
+	.devoe(devoe));
+
+cyclonev_io_ibuf \y~input (
+	.i(y),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\y~input_o ));
+// synopsys translate_off
+defparam \y~input .bus_hold = "false";
+defparam \y~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \s~input (
+	.i(s),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\s~input_o ));
+// synopsys translate_off
+defparam \s~input .bus_hold = "false";
+defparam \s~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \x~input (
+	.i(x),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\x~input_o ));
+// synopsys translate_off
+defparam \x~input .bus_hold = "false";
+defparam \x~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_obuf \m~output (
+	.i(\v7432c1|pin3~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(m),
+	.obar());
+// synopsys translate_off
+defparam \m~output .bus_hold = "false";
+defparam \m~output .open_drain_output = "false";
+defparam \m~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+endmodule
+
+module v7432 (
+	pin3,
+	y,
+	s,
+	x,
+	devpor,
+	devclrn,
+	devoe);
+output 	pin3;
+input 	y;
+input 	s;
+input 	x;
+input 	devpor;
+input 	devclrn;
+input 	devoe;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+
+
+cyclonev_lcell_comb \pin3~0 (
+// Equation(s):
+// pin3 = (!\s~input_o  & ((\x~input_o ))) # (\s~input_o  & (\y~input_o ))
+
+	.dataa(!y),
+	.datab(!s),
+	.datac(!x),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(pin3),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \pin3~0 .extended_lut = "off";
+defparam \pin3~0 .lut_mask = 64'h1D1D1D1D1D1D1D1D;
+defparam \pin3~0 .shared_arith = "off";
+// synopsys translate_on
+
+endmodule

@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Quotient[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Quotient[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Resetn",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Go",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Divisor[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dividend[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

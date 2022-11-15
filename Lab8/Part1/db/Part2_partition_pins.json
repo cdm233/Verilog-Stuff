@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CounterValue[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterValue[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterValue[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterValue[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "ClockIn",
+					"strict" : false
+				},
+				{
+					"name" : "Speed[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Speed[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
